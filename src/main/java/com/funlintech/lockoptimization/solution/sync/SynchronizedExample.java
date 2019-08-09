@@ -24,7 +24,7 @@ public class SynchronizedExample {
         }
 
         /**
-         * 修饰静态方法 锁对象为当前类的Class对象 Class X
+         * 修饰静态方法 锁对象为当前类的Class对象 Class Cache
          */
         synchronized static void set() {
         }
