@@ -18,7 +18,6 @@ import java.util.concurrent.TimeUnit;
  * wait() and notify
  *
  * @author zed
- * @since 2019-07-01 11:12 AM
  */
 public class WaitNotifyQueue {
     /**

@@ -11,7 +11,6 @@ import java.util.List;
  *https://hg.openjdk.java.net/jdk/jdk/file/2ce72467c4e8/src/hotspot/share/runtime/objectMonitor.hpp
  *
  ** @author zed
- * @since 2019-06-13 11:47 AM
  */
 public class SynchronizedExample {
 

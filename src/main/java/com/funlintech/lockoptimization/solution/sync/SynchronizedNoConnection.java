@@ -5,7 +5,6 @@ package com.funlintech.lockoptimization.solution.sync;
  * 保护没有关联关系的多个资源
  * 银行账户密码和余额没有关联关系
  * @author zed
- * @since 2019-06-13 2:12 PM
  */
 public class SynchronizedNoConnection {
 

@@ -10,7 +10,6 @@ import java.util.concurrent.ThreadPoolExecutor;
  * visibility 可见性问题
  *
  * @author zed
- * @since 2019-06-13 9:05 AM
  */
 public class Visibility {
     private static ThreadPoolExecutor threadPoolExecutor = ThreadPoolBuilder.fixedPool().setPoolSize(2).build();

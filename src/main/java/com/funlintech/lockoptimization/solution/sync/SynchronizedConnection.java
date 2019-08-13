@@ -13,7 +13,6 @@ import java.util.concurrent.ThreadPoolExecutor;
  * 保护有关联关系的多个资源 银行转帐问题
  *
  * @author zed
- * @since 2019-06-13 1:13 PM
  */
 public class SynchronizedConnection {
     private static ThreadPoolExecutor threadPoolExecutor = ThreadPoolBuilder.fixedPool().setPoolSize(2).setThreadNamePrefix("sync测试线程").build();

@@ -14,7 +14,6 @@ import java.util.concurrent.locks.StampedLock;
  * readLockInterruptibly() 和writeLockInterruptibly()
  *
  * @author zed
- * @since 2019-06-17 5:24 PM
  */
 public class StampedLockEx {
 

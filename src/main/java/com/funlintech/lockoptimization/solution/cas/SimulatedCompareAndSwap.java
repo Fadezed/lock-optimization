@@ -5,7 +5,6 @@ package com.funlintech.lockoptimization.solution.cas;
  * SimulatedCompareAndSwap 模拟cas操作
  *
  * @author zed
- * @since 2019-06-18 2:09 PM
  */
 public class SimulatedCompareAndSwap {
     private int count;

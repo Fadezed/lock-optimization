@@ -15,7 +15,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * 通过ReentrantLock 实现打印和停止打印的条件队列，每次容量为5
  *
  * @author zed
- * @since 2019-07-01 10:59 AM
  */
 public class ConditionQueue {
     private static final int LIMIT = 5;
