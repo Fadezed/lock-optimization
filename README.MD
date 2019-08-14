@@ -7,10 +7,10 @@
 ## 并发问题万能钥匙 ->锁
 * synchronized
     * 加锁原理
-    ![sync执行原理](media/sync1.png)
+    ![sync执行原理](media/sync-one.png)
 
     * 锁升级过程
-    ![sync升级原理](media/sync2.png)
+    ![sync升级原理](media/sync-two.png)
 
         * 高并发情况下因为撤销偏向锁会发生STW影响性能 （hotspot文档也指出撤销一定次数后会被禁用）
                      `-XX:-UseBiasedLocking // 关闭偏向锁（默认打开）`
@@ -21,11 +21,11 @@
     * 实现等待通知模式
 * Lock
     * ReentrantLock执行原理
-    ![lock原理](media/lock1.png)
+    ![lock原理](media/lock-one.png)
 
     * 实现条件队列
     * ReentrantReadWriteLock执行原理
-    ![rr](media/lock2.png)
+    ![rr](media/lock-two.png)
 
     * ReentrantReadWriteLock使用
 
